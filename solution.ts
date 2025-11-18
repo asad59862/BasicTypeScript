@@ -1,4 +1,4 @@
-//1
+
 function formatValue(value: string | number|boolean) {
   if (typeof (value) === "string") {
     return value.toUpperCase();
@@ -11,7 +11,7 @@ function formatValue(value: string | number|boolean) {
   }
 }
 
-//2
+
 
 function getLength(value: string | number[]) {
   if (typeof (value) === "string") {
@@ -22,7 +22,7 @@ function getLength(value: string | number[]) {
   }
 }
 
-//3
+
 
 class Person {
   name: string;
@@ -36,7 +36,7 @@ class Person {
   }
 }
 
-//4
+
 
 type obj = {
   title: string;
@@ -55,7 +55,7 @@ function filterByRating(value: obj[]) {
   return newArray;
 }
 
-//5
+
 type user={
   id: number;
   name: string;
@@ -73,7 +73,7 @@ function filterActiveUsers(users:user[]){
   return ActiveUser;
 }
 
-//6
+
 
 
 interface Book{
@@ -96,14 +96,14 @@ function printBookDetails(value: Book) {
 
 }
 
-//7
+
 function getUniqueValues(arr1: any[], arr2: any[]) {
   const mergedArray = [...arr1, ...arr2];
   const uniqueArray = [...new Set(mergedArray)];
   return uniqueArray;
 }
 
-//8 
+
 
 interface Product {
   name: string;
